@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-#Configuracion de VisualStudio Code
+#Configuracion de VisualStudio Code : https://www.peacockcode.dev/guide/#settings
 .vscode

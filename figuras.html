@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Figuras Geométricas</h1>
+    <p>Cálculo del perímetro y areas de las figuras geometricas</p>
+  </header>
+
+  <section>
+    <h2>Cuadrado</h2>
+    <form action="">
+      <label for="InputCuadrado">
+        Escribe cuanto mide el lado de tu cuadrado.
+      </label>
+      <input id="InputCuadrado" type="number">
+      <button type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular perimetro
+      </button>
+      <button type="button" onclick="calcularAreaCuadrado()">
+        Calcular Area
+      </button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Triángulo</h2>
+    <form action="">
+      <label for="InputTrianguloL1">
+        Escribe cuanto mide el lado 1 de tu Triangulo.
+      </label>
+      <input id="InputTrianguloL1" type="number">
+      <label for="InputTrianguloL2">
+        Escribe cuanto mide el lado 2 de tu Triangulo.
+      </label>
+      <input id="InputTrianguloL2" type="number">
+      <label for="InputTrianguloBase">
+        Escribe cuanto mide la base de tu Triangulo.
+      </label>
+      <input id="InputTrianguloBase" type="number">
+      <label for="InputTrianguloAltura">
+        Escribe cuanto mide la altura de tu Triangulo.
+      </label>
+      <input id="InputTrianguloAltura" type="number">
+      <button type="button" onclick="calcularPerimetroTriangulo()">
+        Calcular perimetro
+      </button>
+      <button type="button" onclick="calcularAreaTriangulo()">
+        Calcular Area
+      </button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Triángulo Isosceles</h2>
+    <form action="">
+      <label for="InputLado1TrianguloIso">
+        Escribe cuanto mide el lado 1 de tu Triangulo.
+      </label>
+      <input id="InputLado1TrianguloIso" type="number">
+      <label for="InputLado2TrianguloIso">
+        Escribe cuanto mide el lado 2 de tu Triangulo.
+      </label>
+      <input id="InputLado2TrianguloIso" type="number">
+      <label for="InputLado3TrianguloIso">
+        Escribe cuanto mide el lado 3 de tu Triangulo.
+      </label>
+      <input id="InputLado3TrianguloIso" type="number">
+
+      <button type="button" onclick="calcularAlturaTrianguloIso()">
+        Calcular Altura
+      </button>
+    </form>
+  </section>
+
+  <script src="./figuras.js">
+
+  </script>
+</body>
+</html>

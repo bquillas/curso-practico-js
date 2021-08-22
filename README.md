@@ -24,3 +24,10 @@
 - Cuarto: integrar JS con HTML
 
 - Extra: desarrollo del promedio ponderado
+
+## Taller #4: Calculo de salarios de cada pais
+
+- Primer paso: definir las formulas
+- Segundo: implementar las formulas en JS
+- Tercero: crear funciones
+- Cuarto: integrar JS con HTML
